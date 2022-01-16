@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+nav{
+	padding: 10px 15px;
+}
+nav a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1.2rem;
+}
+nav a:hover{
+	border-bottom: 2px solid black;
+}
+
+.active{
+		border-bottom: 2px solid black;
+}
+.active:hover{
+		border-bottom: 2px solid blue;
+}
+h1{
+	
+	font-size: 5rem;
+	margin: 0 0 80px;
+}
+.box_1{
+	height: 400px;
+	background: #e8f0e5;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box_left{
+	width:50%;
+	min-width:400px;
+	text-align: center;
+}
+.box_right{
+	width:50%;
+	min-width:400px;
+}
+.box_left h2{
+	font-size: 1.8rem;
+	margin: 40px 0 5px;
+}
+.box_left h3{
+	font-size: 1.6rem;
+	margin: 18px 0 24px;
+}
+.box_left a{
+	font-size: rem;
+	background: #000;
+	color: #fff;
+	padding: 10px 8px;
+	border-radius: 26px;
+	cursor: pointer;
+}
+.box_1_left a:hover{
+	box-shadow: 0 0 10px black;
+}
+	
+	
