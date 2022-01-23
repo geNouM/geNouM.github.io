@@ -1,0 +1,34 @@
+body{
+    padding: 0;
+    margin: 0;
+font-family: cursive;
+}
+nav{
+    padding: 10px 20px;
+    background-color: rgb(1, 114, 1);
+}
+nav>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 14px;
+    transition: color 0.5s ease;
+}
+nav>a:hover{
+    color: dodgerblue;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.w-33{
+    min-width: 33.3333%;
+}
+.t-a-c{
+    text-align: center;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+}
