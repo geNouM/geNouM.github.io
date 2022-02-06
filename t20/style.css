@@ -1,0 +1,43 @@
+.box{
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(to right,red,navy);
+    color: #fff;
+    margin: 70px auto;
+    font-size: 22px;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s ease;
+}
+
+.anim1:hover{
+    box-shadow: inset 0 0 0 30px blue;
+    transition: 0.8s linear;
+}
+.anim2{
+    opacity: .6;
+}
+.anim2:hover{
+    opacity: 1;
+}
+.anim3:hover{
+    transform: scale(1.1);
+}
+.anim4:hover{
+    border-radius: 70px;
+}
+.anim5:hover{
+    transform: rotate(9999deg);
+}
+.anim6{
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}

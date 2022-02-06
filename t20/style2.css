@@ -1,0 +1,37 @@
+.box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px 100px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    background: mediumturquoise;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px navy;
+    color: navy;
+    font-size: 20px;
+    transition: 0.8s ease;
+}
+.free:hover{
+    transform: rotate(10deg) scale(1.05);
+    background: lime;
+}
+.reserve{
+    background: red;
+    color: #fff;
+}
+.reserve:hover{
+    animation: nope .6s infinite;
+}
+@keyframes nope{
+    25% { transform: rotate(-10deg)}
+    50% { transform: rotate(10deg) }
+    75% { transform: rotate(-10deg)}
+    100%{ transform: rotate(10deg) }
+}
