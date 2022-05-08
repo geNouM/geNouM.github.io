@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: linear-gradient(rgba(243, 129, 129, 0.7), rgba(252, 227, 138, 0.7)), url("picture.png");
+    height: 1000px;
+    background-position: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    padding: 30px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+nav a{
+    margin: 0 10px;
+    transition: 0.3s ease;
+}
+nav a:hover{
+    color: yellow;
+    padding-bottom: 10px;
+    border-bottom: 2px solid yellow;
+}
+
+.welcome{
+    text-align: center;
+    margin-top: 25vh;
+}
+.welcome h2{
+    font-size: 3rem;
+    font-family: 'Kaushan Script', cursive;
+ }
+.welcome h1{ 
+    font-size: 8rem;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-bottom: 120px;
+    font-family: 'Montserrat', sans-serif;
+}
+.welcome a{
+    border: 4px solid white;
+    padding: 14px 24px;
+    font-size: 1.1rem;
+    transition: 0.5s ease;
+}
+.welcome a:hover{
+    border: 4px solid yellow;
+    color: yellow
+}
+
+.we_work{
+    padding: 80px 0 20px;
+    text-align: center;
+}
+.line{
+    width: 80px;
+    height: 3px;
+    background: rgb(253, 130, 150);
+    margin: 0 auto;
+}
+.we_are{
+    padding: 20px 0 20px;
+    text-align: center;
+} 
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about_box{
+    margin: 40px 20px;
+}
+
+.about_photo{
+    transition: 0.5s ease;
+    position: relative;
+}
+
+.about_photo:hover{
+    transform: translate(-15px, -15px);
+}
+.about_socials{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(rgba(243, 129, 129, 0.7), rgba(252, 227, 138, 0.7));
+    opacity: 0;
+    transition: 0.999s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_socials:hover{
+    opacity: 1;
+}
+.social_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    background: rgba(252, 227, 138, 0.8);
+}

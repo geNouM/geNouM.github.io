@@ -1,0 +1,90 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-image: url(art1_b.jpg);
+   background-size: 100%;
+   background-attachment: fixed;
+   font-family: sans-serif;
+   color: white;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-image: url(art1_b.jpg);
+    background-size: 100%;
+}
+header nav{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+}
+main{
+    padding: 10vh 10vw 0;
+}
+article h2{
+    font-size: 1.8rem;
+}
+article p{
+    font-size: 1.3rem;
+    text-align: justify;
+}
+footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0.6px;
+    font-size: 1.2rem;
+}
+/* Gallery */
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery img{
+    width: 320px;
+    margin: 20px 10px;
+}
+.gallery img:hover{
+    transform: scale(1.2);
+}
+/* About */
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+     width: 340px;
+     background:black;
+}
+
+.card_image img{
+    width: 100%;
+}
+
+.card_title p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.card_text{
+    text-align: justify;
+}
